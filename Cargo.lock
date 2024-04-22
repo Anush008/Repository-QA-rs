@@ -946,9 +946,9 @@ checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
 
 [[package]]
 name = "either"
-version = "1.10.0"
+version = "1.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "11157ac094ffbdde99aa67b23417ebdd801842852b500e395a45a9c0aac03e4a"
+checksum = "a47c1c47d2f5964e29c61246e81db715514cd532db6b5116a25ea3c03d6780a2"
 
 [[package]]
 name = "encode_unicode"
@@ -2768,10 +2768,11 @@ dependencies = [
 
 [[package]]
 name = "text-splitter"
-version = "0.6.3"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c323eda8714dcca987ed66e48edd368882c3214546182f755cb2226da52813d"
+checksum = "691e4c33fe08c9637366b4f6ba6217157703f784f1c0a670aa76ac2f8a15733f"
 dependencies = [
+ "ahash",
  "auto_enums",
  "either",
  "itertools 0.12.1",
